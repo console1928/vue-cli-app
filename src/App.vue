@@ -1,28 +1,27 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <LeftNavigation @select-page="selectPage" />
+    <ContentContainer :pageName="selectedPage" />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import LeftNavigation from "./components/LeftNavigation.vue";
+import ContentContainer from "./components/ContentContainer.vue";
 
 export default {
-  name: 'app',
+  name: "app",
   components: {
-    HelloWorld
+    LeftNavigation,
+    ContentContainer
+  },
+  data: () => ({
+    selectedPage: "Settings"
+  }),
+  methods: {
+    selectPage: function(pageName) {
+      this.selectedPage = pageName;
+    }
   }
-}
+};
 </script>
-
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
