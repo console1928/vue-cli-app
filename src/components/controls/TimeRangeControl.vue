@@ -12,8 +12,6 @@
 <script>
 import VueSlider from "vue-slider-component";
 import VueTimepicker from "vue2-timepicker";
-import "vue-slider-component/theme/default.css";
-import "vue2-timepicker/dist/VueTimepicker.css";
 
 export default {
   name: "TimeRangeControl",

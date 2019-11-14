@@ -1,73 +1,73 @@
 @font-face {
-    font-family: "Heebo-Bold";
-    src: url('../fonts/Heebo-Bold.ttf') format("truetype");
-  }
-  
-  @font-face {
-    font-family: "Heebo-Light";
-    src: url('../fonts/Heebo-Light.ttf') format("truetype");
-  }
-  
-  @font-face {
-    font-family: "Heebo-Medium";
-    src: url('../fonts/Heebo-Medium.ttf') format("truetype");
-  }
-  
-  @font-face {
-    font-family: "Heebo-Regular";
-    src: url('../fonts/Heebo-Regular.ttf') format("truetype");
-  }
-  
-  body {
-    background-color: #f5f5f7;
-    margin: 0px;
-    padding: 0px;
-  }
-  
-  .vue__time-picker,
-  .vue__time-picker input.display-time {
-    width: 60px;
-  }
-  
-  .vue__time-picker input.display-time {
-    width: 50px;
-    height: 23px;
-    border-radius: 4px;
-    line-height: 25px;
-    font-family: Heebo-Regular;
-    font-size: 13px;
-    outline: none;
-  }
-  
-  .vue__time-picker .dropdown {
-      z-index: 6;
-  }
-  
-  .vue__time-picker .dropdown ul li:not([disabled]).active,
-  .vue__time-picker .dropdown ul li:not([disabled]).active:focus,
-  .vue__time-picker .dropdown ul li:not([disabled]).active:hover {
-    background: #a1a1a1;
-  }
-  
-  .timepicker-container {
-    display: inline-block;
-    width: 60px;
-    overflow: hidden;
-    vertical-align: middle;
-  }
-  
-  .vue-slider-rail {
-      height: 8px;
-      background-color: #d8d8d8;
-  }
-  
-  .vue-slider-process {
-      background-color: #990000;
-  }
-  
-  .vue-slider-dot-handle {
-      width: 20px;
-      height: 20px;
-      margin-top: -3px;
-  }
+  font-family: "Heebo-Bold";
+  src: url('../fonts/Heebo-Bold.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: "Heebo-Light";
+  src: url('../fonts/Heebo-Light.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: "Heebo-Medium";
+  src: url('../fonts/Heebo-Medium.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: "Heebo-Regular";
+  src: url('../fonts/Heebo-Regular.ttf') format("truetype");
+}
+
+body {
+  background-color: #f5f5f7;
+  margin: 0px;
+  padding: 0px;
+}
+
+.vue__time-picker,
+.vue__time-picker input.display-time {
+  width: 60px;
+}
+
+.vue__time-picker input.display-time {
+  width: 50px;
+  height: 23px;
+  border-radius: 4px;
+  line-height: 25px;
+  font-family: Heebo-Regular;
+  font-size: 13px;
+  outline: none;
+}
+
+.vue__time-picker .dropdown {
+  z-index: 6;
+}
+
+.vue__time-picker .dropdown ul li:not([disabled]).active,
+.vue__time-picker .dropdown ul li:not([disabled]).active:focus,
+.vue__time-picker .dropdown ul li:not([disabled]).active:hover {
+  background: #a1a1a1;
+}
+
+.timepicker-container {
+  display: inline-block;
+  width: 60px;
+  overflow: hidden;
+  vertical-align: middle;
+}
+
+.vue-slider-rail {
+  height: 8px;
+  background-color: #d8d8d8;
+}
+
+.vue-slider-process {
+  background-color: #990000;
+}
+
+.vue-slider-dot-handle {
+  width: 20px;
+  height: 20px;
+  margin-top: -3px;
+}
   
